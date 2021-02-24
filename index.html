@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="veiwport" content="width-device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ハンバーガーメニュー</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <nav>
+                <!--ロゴ-->
+                <a href="#"><img class="logo" src="images/zubora-logo.png" alt="logo"></a>
+
+                <!--ハンバーグメニュー-->
+                <div class="humbergerMenu">
+                    <div class="buns"></div>
+                    <div class="patty"></div>
+                    <div class="buns"></div>
+                </div>
+
+                <!--リンク-->
+                <ul class = "link">
+                    <li class="link1"><a href="100en.html">１５０円</a></li>
+                    <li class="link2"><a href="10min.html">１０分</a></li>
+                    <li class="link3"><a href="ranking.html">ランキング</a></li>
+                </ul>
+            </nav>
+
+            <!--下帯-->
+            <div class="second-menu">
+                <div class="button1"><a href="100en.html">１５０円</a></div>
+                <div class="button2"><a href="10min.html">１０分</a></div>
+                <div class="button3"><a href="ranking.html">ランキング</a></div>
+            </div>
+
+            <!--メインコンテンツ-->
+            <div class="mainContent">
+                <div class="slider">
+                    <!--スライズ始まり-->
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id=radio1>
+                        <input type="radio" name="radio-btn" id=radio2>
+                        <input type="radio" name="radio-btn" id=radio3>
+                        <input type="radio" name="radio-btn" id=radio4>
+                            <!--スライドショーの写真-->
+                        <div class="slide first">
+                            <a href="curry.html">
+                                <img src="images/curry.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="chahan.html">
+                                <img src="images/chahan.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="omuraisu.html">
+                                <img src="images/omuraisu.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="kinoko-pasta.html">
+                                <img src="images/pasta-kinoko.jpg" alt="">
+                            </a>
+                        </div>
+                            <!--スライドショーの写真-->
+
+                    <!--オートナビゲーション-->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div><!--スライズ終わり-->
+
+                    <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+            </div>
+
+            <!--グリッド部分-->
+            <div class="gridContent">
+                <div class="wrapper grid">
+                    <div class="item">
+                        <a href="pasta-burokkori.html">
+                            <img src="images/pasta-burokkori.jpg" alt="">
+                            <p>ブロッコリーパスタ</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="udon.html">
+                            <img src="images/udon.jpg" alt="">
+                            <p>うどん</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="ramen.html">
+                            <img src="images/ramen.jpg" alt="">
+                            <p>ラーメン</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="oyakodon.html">
+                            <img src="images/oyakodon.jpg" alt="">
+                            <p>親子丼</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="curry.html">
+                            <img src="images/curry.jpg" alt="">
+                            <p>カレー</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="omuraisu.html">
+                            <img src="images/omuraisu.jpg" alt="">
+                            <p>オムライス</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="pasta-kinoko.html">
+                            <img src="images/pasta-kinoko.jpg" alt="">
+                            <p>きのこパスタ</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="chahan.html">
+                            <img src="images/chahan.jpg" alt="">
+                            <p>炒飯</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="mabodohu.html">
+                            <img src="images/mabodohu.jpg" alt="">
+                            <p>麻婆豆腐</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--JavaScript-->
+            <script src="app.js"></script>
+    </body>
+    <footer>
+        <p>&copykai,2021</p>
+    </footer>
+</html>
